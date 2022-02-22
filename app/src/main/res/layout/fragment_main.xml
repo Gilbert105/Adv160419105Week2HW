@@ -16,6 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="208dp"
             android:text="Player's Turn"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
@@ -62,6 +63,17 @@
             app:layout_constraintEnd_toEndOf="@+id/textInputAnswer"
             app:layout_constraintStart_toStartOf="@+id/textInputAnswer"
             app:layout_constraintTop_toBottomOf="@+id/textInputAnswer" />
+
+        <TextView
+            android:id="@+id/textTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Your Score : 0"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSubmit" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
